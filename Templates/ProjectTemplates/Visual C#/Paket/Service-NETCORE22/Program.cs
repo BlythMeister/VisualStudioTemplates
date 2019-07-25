@@ -1,13 +1,12 @@
-using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 
-namespace FifteenBelow.DeployedSystemTester.Runner
+namespace $safeprojectname$
 {
     internal class Program
     {
-        public static async Task Main(string[] args)
+        public static void Main(string[] args)
         {
-            await new HostBuilder().Build().RunAsync();
+            new HostBuilder().Build().Run();
         }
     }
 }
