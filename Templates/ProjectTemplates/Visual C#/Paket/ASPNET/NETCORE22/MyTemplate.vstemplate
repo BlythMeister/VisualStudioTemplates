@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Paket ASPNET (C# ASPNET Core 2.2)</Name>
+    <Description>C# ASPNET targeting net core 2.2 with base paket implementation</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Project</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+      <Project TargetFileName="Template.csproj" File="Template.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+	  <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="paket.references">paket.references</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
