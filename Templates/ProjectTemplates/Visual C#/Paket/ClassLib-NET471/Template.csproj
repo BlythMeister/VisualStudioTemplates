@@ -6,7 +6,7 @@
     <AssemblyTitle>$projectname$</AssemblyTitle>
     <Product>$projectname$</Product>
     <Copyright>Copyright © $year$</Copyright>
-    <Company></Company>
+    <Company />
     <PackageId>$projectname$</PackageId>
     <Description>
     </Description>
